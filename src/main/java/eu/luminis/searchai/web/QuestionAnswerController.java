@@ -31,11 +31,5 @@ public class QuestionAnswerController {
         return "redirect:/qna";
     }
 
-    @GetMapping("/ingest")
-    public String getIngestPage() {
-
-        return "ingest";
-    }
-
 }
 
